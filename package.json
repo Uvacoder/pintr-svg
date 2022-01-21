@@ -1,14 +1,13 @@
 {
   "name": "PINTR",
-  "homepage": "https://javier.xyz/pintr/",
+  "homepage": "https://pintr-svg.vercel.app",
   "description": "Create single line SVG illustrations from your pictures.",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build"
   },
   "devDependencies": {
     "eslint": "^8.6.0",
